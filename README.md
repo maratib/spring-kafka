@@ -2,7 +2,7 @@
 
 ## What is Kafka?
 
-It is a `distributed event streaming platform` for building `real-time data pipelines`
+Kafka is a `distributed event streaming platform` for building `real-time data pipelines`
 
 ## Kafka Key Features
 

@@ -1,10 +1,10 @@
-package com.mak.producer;
+package com.mak.consumer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ConsumberApplicationTests {
+class ConsumerApplicationTests {
 
 	@Test
 	void contextLoads() {

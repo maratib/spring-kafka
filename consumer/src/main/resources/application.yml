@@ -1,5 +1,22 @@
 server:
   port: 8081
 spring:
+  main:
+    banner-mode: off
   application:
     name: consumer
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer: #Kafka Consumer config
+      group-id: banking
+      auto-offset-reset: earliest
+
+logging:
+  level:
+    root: warn
+    org:
+      apache:
+        kafka: off
+    com:
+      mak:
+        consumer: debug
